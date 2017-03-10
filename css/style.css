@@ -127,10 +127,10 @@
   -moz-transform: scale(1.1);
   transform: scale(1.1);
   opacity: 0.7;
-  left:80vw;
-  -webkit-animation: moveStars 10s linear infinite;
-  -moz-animation: moveStars 10s linear infinite;
-  -o-animation: moveStars 10s linear infinite;
+  left:5vw;
+  -webkit-animation: moveStars 12s linear infinite;
+  -moz-animation: moveStars 12s linear infinite;
+  -o-animation: moveStars 12s linear infinite;
 }
 
 /*variable speed, opacity, and position of clouds for realistic effect*/
@@ -144,26 +144,26 @@
   
   /*Speed will also be proportional to the size and opacity*/
   /*More the speed. Less the time in 's' = seconds*/
-  -webkit-animation: moveStars 25s linear infinite;
-  -moz-animation: moveStars 25s linear infinite;
-  -o-animation: moveStars 25s linear infinite;
+  -webkit-animation: moveStars 11s linear infinite;
+  -moz-animation: moveStars 11s linear infinite;
+  -o-animation: moveStars 11s linear infinite;
 }
 
 .x3 {
-  left: -250px; top: -200px;
+  left: 20vw;
   
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.8; /*opacity proportional to the size*/
   
-  -webkit-animation: moveStars 20s linear infinite;
-  -moz-animation: moveStars 20s linear infinite;
-  -o-animation: moveStars 20s linear infinite;
+  -webkit-animation: moveStars 13s linear infinite;
+  -moz-animation: moveStars 13s linear infinite;
+  -o-animation: moveStars 13s linear infinite;
 }
 
 .x4 {
-  left: 470px; top: -250px;
+  left: 30vw;
   
   -webkit-transform: scale(0.75);
   -moz-transform: scale(0.75);
@@ -176,32 +176,32 @@
 }
 
 .x5 {
-  left: -150px; top: -150px;
+  left: 40vw;
   
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.8; /*opacity proportional to the size*/
   
-  -webkit-animation: moveStars 20s linear infinite;
-  -moz-animation: moveStars 20s linear infinite;
-  -o-animation: moveStars 20s linear infinite;
+  -webkit-animation: moveStars 13s linear infinite;
+  -moz-animation: moveStars 13s linear infinite;
+  -o-animation: moveStars 13s linear infinite;
 }
 
 .x6 {
-  left:65vw;
+  left:50vw;
   -webkit-transform: scale(0.9);
   -moz-transform: scale(0.9);
   transform: scale(0.9);
   opacity: 0.7;
-  -webkit-animation: moveStars 20s linear infinite;
-  -moz-animation: moveStars 20s linear infinite;
-  -o-animation: moveStars 20s linear infinite;
+  -webkit-animation: moveStars 16s linear infinite;
+  -moz-animation: moveStars 16s linear infinite;
+  -o-animation: moveStars 16s linear infinite;
 }
 
 /*variable speed, opacity, and position of clouds for realistic effect*/
 .x7 {
-  left: 33vw;
+  left: 60vw;
   
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
@@ -216,20 +216,20 @@
 }
 
 .x8 {
-  left: 60vw;
+  left: 70vw;
   
   -webkit-transform: scale(0.6);
   -moz-transform: scale(0.6);
   transform: scale(0.6);
   opacity: 0.9; /*opacity proportional to the size*/
   
-  -webkit-animation: moveStars 20s linear infinite;
-  -moz-animation: moveStars 20s linear infinite;
-  -o-animation: moveStars 20s linear infinite;
+  -webkit-animation: moveStars 19s linear infinite;
+  -moz-animation: moveStars 19s linear infinite;
+  -o-animation: moveStars 19s linear infinite;
 }
 
 .x9 {
-  left: 90vw;
+  left: 80vw;
   
   -webkit-transform: scale(0.85);
   -moz-transform: scale(0.85);
@@ -242,27 +242,27 @@
 }
 
 .x10 {
-  left: 45vw;
+  left: 90vw;
   
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
   transform: scale(0.8);
   opacity: 0.8; /*opacity proportional to the size*/
   
-  -webkit-animation: moveStars 25s linear infinite;
-  -moz-animation: moveStars 25s linear infinite;
-  -o-animation: moveStars 25s linear infinite;
+  -webkit-animation: moveStars 20s linear infinite;
+  -moz-animation: moveStars 20s linear infinite;
+  -o-animation: moveStars 20s linear infinite;
 }
 
 @-webkit-keyframes moveStars {
-  0% {margin-top: -1000px;}
-  100% {margin-top: 1000px;}
+  0% {top: 0;}
+  100% {top: 100vh;}
 }
 @-moz-keyframes moveStars {
-  0% {margin-top: -1000px;}
-  100% {margin-top: 1000px;}
+  0% {top: 0;}
+  100% {top: 100vh;}
 }
 @-o-keyframes moveStars {
-  0% {margin-top: -1000px;}
-  100% {margin-top: 1000px;}
+  0% {top: 0;}
+  100% {top: 100vh;}
 }
